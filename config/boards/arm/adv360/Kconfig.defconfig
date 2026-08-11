@@ -28,6 +28,9 @@ config BOARD
 config ZMK_SPLIT
     default y
 
+config ZMK_HID_KEYBOARD_NKRO_EXTENDED_REPORT
+    default y
+
 config SPI
     bool
     default y
